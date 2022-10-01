@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .photo-album{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .photo-frame{
+            width: 300px;
+            height: 500px;
+            border: 10px solid firebrick;
+            border-radius: 10px;
+            position: relative;
+            margin: 10px;
+            overflow: hidden;
+        }
+        .photo-frame .photo img{
+            width: 100%;
+        }
+        .photo-frame:hover .photo img{
+            transform: skew(-10deg);
+            transition: transform 2s;
+        }
+        .photo-details{
+            position: absolute;
+            display: none;
+            width: 300px;
+            height: 500px;
+            top: 0;
+        }
+        .photo-frame:hover .photo-details{
+            display: block;
+            background-color: rgba(8, 226, 26, .2);
+        }
+        .photo-frame:hover .photo-details h3{
+             color: white;
+             background-color: black;
+             text-align: center;
+        }
+        .photo-frame:hover .photo-details p{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>my photos</h1>
+    <section class="photo-album">
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="1.jpeg" alt="">
+            </div>
+            <div class="photo-details">
+                <h3>natural image</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium saepe labore eaque aspernatur ipsum accusantium quas expedita officiis, consectetur, autem repellendus dolore. Ad sit deleniti nesciunt vitae rem omnis sequi!</p>
+            </div>
+        </div>
+        <div class="photo-frame">
+            <div class="photo">
+                <img src="1.jpeg" alt="">
+            </div>
+            <div class="photo-details">
+                <h3>natural image</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium saepe labore eaque aspernatur ipsum accusantium quas expedita officiis, consectetur, autem repellendus dolore. Ad sit deleniti nesciunt vitae rem omnis sequi!</p>
+            </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="1.jpeg" alt="">
+            </div>
+            <div class="photo-details">
+                <h3>natural image</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium saepe labore eaque aspernatur ipsum accusantium quas expedita officiis, consectetur, autem repellendus dolore. Ad sit deleniti nesciunt vitae rem omnis sequi!</p>
+            </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="1.jpeg" alt="">
+            </div>
+            <div class="photo-details">
+                <h3>natural image</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium saepe labore eaque aspernatur ipsum accusantium quas expedita officiis, consectetur, autem repellendus dolore. Ad sit deleniti nesciunt vitae rem omnis sequi!</p>
+            </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="1.jpeg" alt="">
+            </div>
+            <div class="photo-details">
+                <h3>natural image</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium saepe labore eaque aspernatur ipsum accusantium quas expedita officiis, consectetur, autem repellendus dolore. Ad sit deleniti nesciunt vitae rem omnis sequi!</p>
+            </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="1.jpeg" alt="">
+            </div>
+            <div class="photo-details">
+                <h3>natural image</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium saepe labore eaque aspernatur ipsum accusantium quas expedita officiis, consectetur, autem repellendus dolore. Ad sit deleniti nesciunt vitae rem omnis sequi!</p>
+            </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="1.jpeg" alt="">
+            </div>
+            <div class="photo-details">
+                <h3>natural image</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium saepe labore eaque aspernatur ipsum accusantium quas expedita officiis, consectetur, autem repellendus dolore. Ad sit deleniti nesciunt vitae rem omnis sequi!</p>
+            </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="1.jpeg" alt="">
+            </div>
+            <div class="photo-details">
+                <h3>natural image</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium saepe labore eaque aspernatur ipsum accusantium quas expedita officiis, consectetur, autem repellendus dolore. Ad sit deleniti nesciunt vitae rem omnis sequi!</p>
+            </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="1.jpeg" alt="">
+            </div>
+            <div class="photo-details">
+                <h3>natural image</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium saepe labore eaque aspernatur ipsum accusantium quas expedita officiis, consectetur, autem repellendus dolore. Ad sit deleniti nesciunt vitae rem omnis sequi!</p>
+            </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="1.jpeg" alt="">
+            </div>
+            <div class="photo-details">
+                <h3>natural image</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium saepe labore eaque aspernatur ipsum accusantium quas expedita officiis, consectetur, autem repellendus dolore. Ad sit deleniti nesciunt vitae rem omnis sequi!</p>
+            </div>
+        </div><div class="photo-frame">
+            <div class="photo">
+                <img src="1.jpeg" alt="">
+            </div>
+            <div class="photo-details">
+                <h3>natural image</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium saepe labore eaque aspernatur ipsum accusantium quas expedita officiis, consectetur, autem repellendus dolore. Ad sit deleniti nesciunt vitae rem omnis sequi!</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
